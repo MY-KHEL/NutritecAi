@@ -86,11 +86,11 @@ export const FormPage =()=>{
   <DialogTrigger className="underline block mt-4 text-center underline-offset-4"> i have no test strip</DialogTrigger>
   <DialogContent>
     <DialogHeader>
-      <DialogTitle className="text-red-600 uppercase text-2xl font-semibold">Get a test strip</DialogTitle>
+      <DialogTitle className="text-red-600 uppercase text-2xl text-center font-semibold">Get a test strip</DialogTitle>
       <DialogDescription className="mt-6 text-md">
         Proceed to the nearest pharmacy to get a <b>Nutritec Ai Self kit</b>
         <Link href="/">
-<button className="bg-project-green w-[fit] mx-auto cursor-pointer p-3 mt-10 rounded-md text-white">Connect to an oncology center</button>
+<button className="bg-project-green w-full mx-auto cursor-pointer p-3 mt-10 rounded-md text-white">Connect to an oncology center</button>
         </Link>
       </DialogDescription>
     </DialogHeader>

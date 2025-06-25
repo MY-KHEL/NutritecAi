@@ -22,7 +22,7 @@ export const HeroSection = () => {
                             <div className="absolute w-[200px]  top-20 md:top-1/2 scale-50 md:scale-100 -left-20 md:-left-25 bg-project-pink rounded-lg p-2 ">
                                     <div className="flex items-center">
                                         <h1 className="text-3xl font-semibold">70%</h1>
-                                        <p className="text-[10px]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, dolores.</p>
+                                        <p className="text-[10px]">Of women in African countries are diagnosed at a late stage.</p>
                                     </div>
                             </div>
                         </div>
