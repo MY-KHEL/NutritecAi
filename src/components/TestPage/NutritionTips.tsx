@@ -52,7 +52,7 @@ export const NutritionTipPage = ({
   };
 
   return (
-    <div className="p-6 max-w-2xl mx-auto h-[80vh] overflow-y-auto">
+    <div className="p-6 max-w-2xl mt-10 mx-auto h-[80vh] overflow-y-auto">
       <h1 className="text-2xl font-bold mb-4">Nutritec AI Nutrition Summary</h1>
 
       {loading ? (
