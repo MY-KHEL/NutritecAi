@@ -61,12 +61,12 @@ export const NutritionTipPage = ({
         <p className="text-red-600 font-medium">Error: {error}</p>
       ) : (
         <>
-          <section className="mb-6">
+          <section className="mb-6 overflow-x-auto">
             <h2 className="text-lg font-semibold">Lifestyle Tips</h2>
             <pre className="bg-gray-100 p-3 rounded">{aiResponse.lifestyleTips}</pre>
           </section>
 
-          <section className="mb-6">
+          <section className="mb-6 overflow-x-auto">
             <h2 className="text-lg font-semibold">Daily Routine</h2>
             <pre className="bg-gray-100 p-3 rounded">{aiResponse.dailyRoutine}</pre>
           </section>
