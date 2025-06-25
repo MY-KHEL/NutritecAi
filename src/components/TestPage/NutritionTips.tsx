@@ -63,12 +63,12 @@ export const NutritionTipPage = ({
         <>
           <section className="mb-6">
             <h2 className="text-lg font-semibold">Lifestyle Tips</h2>
-            <p className="bg-gray-100 p-3 rounded">{aiResponse.lifestyleTips}</p>
+            <pre className="bg-gray-100 p-3 rounded">{aiResponse.lifestyleTips}</pre>
           </section>
 
           <section className="mb-6">
             <h2 className="text-lg font-semibold">Daily Routine</h2>
-            <p className="bg-gray-100 p-3 rounded">{aiResponse.dailyRoutine}</p>
+            <pre className="bg-gray-100 p-3 rounded">{aiResponse.dailyRoutine}</pre>
           </section>
 
           <section className="mb-6">
