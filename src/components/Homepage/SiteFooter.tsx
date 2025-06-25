@@ -9,6 +9,7 @@ export const SiteFooter =()=>{
         <div className="">
             <Image src="/afretec.png" alt="afretecimage" height={100} width={200} className=" mx-auto"/>
         </div>
+<p className=" text-md text-center">Please note: Nutritec AI is a predictive analysis tool and does not replace medical diagnosis. Please consult a healthcare professional for a definitive diagnosis and clinical advice.</p>
             </div>
         </div>
         </>
