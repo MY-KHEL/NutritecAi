@@ -34,7 +34,7 @@ export const FormPage =()=>{
         {id:'step3', title:'Family History'},
         {id:'step4', title:'Nutritional Data'},
         {id:'step5', title:'Result'},
-        {id:'step6', title:'Tips'},
+        {id:'step6', title:'Summary'},
     ]
     const setStep =(index:number)=>{
             setCurrentStep(index)

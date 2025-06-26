@@ -58,7 +58,7 @@ export const ResultPage = ({
       <div className="">
         
 <button onClick={()=>handleNext()} className="bg-project-green w-full p-2 mt-4  mx-3 rounded-md text-white">Get a Food Supplement Schedule</button>
-<button className="bg-project-green w-full p-2 mx-3 mt-4 rounded-md text-white">Contact A nutritionist</button>
+
 </div>
     </div>
   );

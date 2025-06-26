@@ -76,7 +76,7 @@ export const FamilyHistory =({handleNext,handlePrev,setFamilyData}:
 
     const question =[
         {
-      label: "Have you done BRCA test",
+      label: "Have you done BRCA test?",
       input: (
         <>
           <label><input type="radio" value="Yes" {...register("hasBrcaTest")}/> Yes</label>
@@ -88,7 +88,7 @@ export const FamilyHistory =({handleNext,handlePrev,setFamilyData}:
       ),
     },
         {
-      label: "Have you done Replacement test",
+      label: "Have you done Hormone Replacement Test?",
       input: (
         <>
           <label><input type="radio" value="Yes" {...register("hasReplacementTest")} /> Yes</label>
@@ -105,7 +105,7 @@ export const FamilyHistory =({handleNext,handlePrev,setFamilyData}:
       ),
     },
         {
-      label: "Have you done Breast Biopsy test",
+      label: "Have you done Breast Biopsy test?",
       input: (
         <>
           <label><input type="radio" value="Yes" {...register("hasBreastBiopsyTest")} /> Yes</label>
@@ -125,7 +125,7 @@ export const FamilyHistory =({handleNext,handlePrev,setFamilyData}:
       ),
     },
         {
-      label: "Do you have a close relative with cancer",
+      label: "Do you have a close relative with cancer?",
       input: (
         <>
           <label><input type="radio" value="Yes" {...register("hasCloseCancerTest")} /> Yes</label>
@@ -146,7 +146,7 @@ export const FamilyHistory =({handleNext,handlePrev,setFamilyData}:
       ),
     },
         {
-      label: "Do you have a distant relative with cancer",
+      label: "Do you have a distant relative with cancer?",
       input: (
         <>
           <label><input type="radio" value="Yes" {...register("hasDistantCancerTest")} /> Yes</label>
@@ -167,7 +167,7 @@ export const FamilyHistory =({handleNext,handlePrev,setFamilyData}:
       ),
     },
         {
-      label: "Do you have a genetic syndrome related with cancer",
+      label: "Do you have a genetic syndrome related with cancer?",
       input: (
         <>
           <label><input type="radio" value="Yes" {...register("hasCancerRelatedSyndrome")} /> Yes</label>

@@ -14,7 +14,7 @@ You are a certified medical nutritionist AI. Based on the patient data, generate
 
 Return it in this exact format (strictly, no asterisks, each number should be on its own line):
 Do not use asterisks. Use numeric bullets only (e.g., 1., 2., 3.), each on its own line. Do not group multiple tips or steps together. Each should appear clearly and separately
-
+Give a Nigerian Based Meal
 Meal Plan:
 1. ...
 2. ...
@@ -38,6 +38,7 @@ ${JSON.stringify(familyData, null, 2)}
 
 Nutrition and LifeStyle:
 ${JSON.stringify(nutritionData, null, 2)}
+Strictly put each number on a new line
 `;
 
     const res = await fetch(

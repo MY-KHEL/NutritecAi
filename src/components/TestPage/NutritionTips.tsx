@@ -52,7 +52,7 @@ export const NutritionTipPage = ({
   };
 
   return (
-    <div className="p-6 max-w-2xl mx-auto h-[80vh] overflow-y-auto">
+    <div className="p-6 max-w-2xl mt-10 mx-auto h-[80vh] overflow-y-auto">
       <h1 className="text-2xl font-bold mb-4">Nutritec AI Nutrition Summary</h1>
 
       {loading ? (
@@ -61,14 +61,14 @@ export const NutritionTipPage = ({
         <p className="text-red-600 font-medium">Error: {error}</p>
       ) : (
         <>
-          <section className="mb-6">
+          <section className="mb-6 overflow-x-auto">
             <h2 className="text-lg font-semibold">Lifestyle Tips</h2>
-            <p className="bg-gray-100 p-3 rounded">{aiResponse.lifestyleTips}</p>
+            <pre className="bg-gray-100 p-3 rounded">{aiResponse.lifestyleTips}</pre>
           </section>
 
-          <section className="mb-6">
+          <section className="mb-6 overflow-x-auto">
             <h2 className="text-lg font-semibold">Daily Routine</h2>
-            <p className="bg-gray-100 p-3 rounded">{aiResponse.dailyRoutine}</p>
+            <pre className="bg-gray-100 p-3 rounded">{aiResponse.dailyRoutine}</pre>
           </section>
 
           <section className="mb-6">
